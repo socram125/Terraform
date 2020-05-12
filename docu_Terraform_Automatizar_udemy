@@ -1,0 +1,88 @@
++++++++++++++++++ Terraform - Automatizar Infraestructuras AWS ++++++++++++++++++++++++++++++++
+
+----------------- Video 1 ---------------------------------------------------------------------
+
+	Introducion del instructor y el curso
+
+----------------- Video 2 ---------------------------------------------------------------------
+
+	Descarga de responsabilidad de todos los posibles fallos o cargos que estemos incurriendo
+
+----------------- Video 3 ---------------------------------------------------------------------
+
+	Un poco explica la tabla de contenidos 
+
+----------------- Video 4 ---------------------------------------------------------------------
+
+	Terraform es una herramienta de codigo abierto que nos permite manejar nuestra infraestructura como codigo
+
+	Terraform tiene soporte con muchos proveedores de infraestructura AWS,GCP, etc;
+
+	Beneficios:
+
+		Admininistra infraestructuras grandes
+		No se limita a un proveedor especifico
+		Proporciona sintaxis simple para casi cualquier recurso de cualquier proveedor
+		Sus configuraciones son reutilizables y pueden ser compartidas
+		Puede ser versionado para controlar cambios, etc
+
+----------------- Video 5 --------------------------------------------------------------------
+
+	Instalacion en LInux
+
+		terraform es muy facil de instalar lo unico que necesitamos es saber nuestro sistema operativo y nuestra arquitectura. Los pasos para instalarlo son los siguientes:
+
+			1. Nos dirigimos a la pagina de terraform
+
+				https://www.terraform.io/
+
+			2. Nos dirigimos a la parte de descargas y descargamos el de nuestro sistema operativo copiando el link que lo va a realizar
+
+				https://www.terraform.io/downloads.html ( URl para buscar el link con el cual descargaremos el binario)
+
+				wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip 
+
+			Nota: si no tenemos instalado wget solo tenemos que hacer un yum install wget si estamos en centos/redhat ó apt-get install wget en ubuntu 
+
+			3. Descomprimimos la carpeta que nos hemos descargado
+
+				unzip <carpeta_descargada>.zip
+
+			Nota: Si no tenemos unzip instalado solo debemos instalarlo 
+
+			4. copiamos el binario descargado a alguna ruta que este en el PATH ó integramos la ruta de nuestro vinario de terraform en el PATH
+
+				cp carpeta_descargada /usr/bin
+
+								ó
+				PATH="$PATH:<ruta donde hemos descargado terraform>"
+
+
+----------------- Video 6 , 7  y 8 -------------------------------------------------------------
+
+	Instalar Terraform en Windows
+
+----------------- Video 9 y 10  ----------------------------------------------------------------
+
+	Da una introducion a dos editores de texto ( visualstudio code y Atom) y como configurarlo
+	tambien podriamos hacerlo con sublime text si nos resulta mas comodo 
+
+----------------- Video 11 ---------------------------------------------------------------------
+
+	En este video explica como hacer una cuenta gratuita de AWS
+
+----------------- Video 12 ---------------------------------------------------------------------
+
+	Explica que dependiendo de la region en la que estemos en AWS el id del ami es diferente 
+
+----------------- Video 13 ---------------------------------------------------------------------
+
+	Creando Usuarios en AWS
+
+		
+
+
+
+
+
+
